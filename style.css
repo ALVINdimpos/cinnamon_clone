@@ -199,3 +199,38 @@ nav button {
   cursor: pointer;
   animation: slideIn 1s ease-in-out;
 }
+.serviceSection{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  padding: 6% 10%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-color: rgb(28, 28, 28);
+  height: 100vh;
+  color:white;
+
+}
+.cards{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+.card{
+  display:flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.heading h1{
+  font-size: 60px;
+    line-height: 56px;
+}
+.card p{
+  font-size: 16px;
+    line-height: 24px;
+    width: 80%;
+}
+.card img{
+  height:50px ;
+  width:50px ;
+}
