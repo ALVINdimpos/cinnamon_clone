@@ -192,4 +192,10 @@ nav button {
   margin-bottom: 20px;
   width: 55%;
 }
-
+.imageContainer.image2{
+  position: relative;
+  background-color:#0ff180 ;
+  padding: 2% 10%;
+  cursor: pointer;
+  animation: slideIn 1s ease-in-out;
+}
